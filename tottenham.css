@@ -1,0 +1,427 @@
+body {
+    margin:0;
+
+}
+
+.navbar {
+    background-color: rgb(1, 1, 90);
+    padding:8px 12px;
+    position:fixed;
+    width:100%;
+
+}
+.navbar_menu {
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+    align-items: center;
+}
+
+
+.search-site::after {
+    content:"|";
+    float:right;
+    color: grey;
+    margin-left:25px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.navbar_menu li{
+    padding:0px 20px;
+}
+
+.accessibility {
+    margin-left:500px;
+}
+
+.accessibility::after {
+    content:"|";
+    color:white;
+    margin-left:25px;
+
+}
+
+.navbar_hamburger {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 200px;
+    background-color: #cac9d3;
+    position: absolute;
+    left: 200px;
+    color:navy;
+    padding:0px;
+}
+
+.navbar_hamburger p{
+    margin:3px;
+
+}
+
+.logo {
+    width:80px;
+    height:100px;
+    margin-top:45px;
+}
+
+.kane {
+    width:100%;
+    height:635px;
+    margin-top:34px;
+    
+
+}
+
+
+.Ben {
+    position: absolute;
+    top: 300px;
+    left: 340px;
+    font-size: 70px;
+    color: white;
+    width: 700px;
+}
+
+.Ben-more {
+    position: absolute;
+    top: 550px;
+    left: 340px;
+    color: #7dddfc;
+    font-size: larger;
+}
+
+.ticket {
+    display:flex;
+    font-size:20px;
+    justify-content: center;
+}
+
+.ticket p{
+    padding:0 30px;
+}
+
+.sale {
+    width:100%;
+    height:180px;
+}
+
+
+.the_latest{
+    font-size:30px;
+    margin-left:370px;
+}
+
+.the_latest::after {
+    content:"";
+    display:block;
+    width:45px;
+    height:3px;
+    background-color:#e0e721;
+    margin-top:2px;
+    
+}
+
+
+
+.latest {
+    display:flex;
+    justify-content: center;
+    position:relative;
+    flex-wrap:wrap;
+}
+
+.latest img {
+    width:480px;
+    height:280px;
+    padding:3px 3px;
+}
+
+.latest_announcement {
+    position:absolute;
+    left:250px;
+    top:180px;
+    color:rgb(31, 165, 210);
+    font-size:25px;
+}
+
+.latest_abbott {
+    position:absolute;
+    left:250px;
+    top:205px;
+    color:white;
+    font-size:25px;
+
+}
+
+.latest_5hours {
+    position: absolute;
+    left:250px;
+    margin-bottom: 0;
+    top:243px;
+    color: white;
+    font-size: 17px;
+}
+
+.unleash {
+    position: absolute;
+    left: 730px;
+    top:180px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+}
+
+.latest_Jamie {
+    position:absolute;
+    left:250px;
+    top:600px;
+    font-size:25px;
+    color:rgb(31, 165, 210);
+}
+.latest_Donley {
+    position:absolute;
+    left:250px;
+    top: 570px;
+    font-size:70px;
+    color:white;
+}
+.latest_3hours {
+    position:absolute;
+    left:250px;
+    top:695px;
+    font-size:17px;
+    color:white;
+}
+
+#latest_3 {
+    width:963px;
+    height:450px;
+}
+
+.show_more {
+    width:200px;
+    height:60px;
+    border:solid black 1px;
+    margin-top:15px;
+    margin-bottom: 50px;
+    margin-left:600px;
+
+
+
+}
+
+h3 {
+    font-size:18px;
+    font-weight:lighter;
+    padding:0 40px;
+    text-align:center;
+    margin-top:20px;
+    display:inline-block;
+    padding-right:15px;
+}
+
+.load_more {
+    width:13px;
+    height:13px;
+
+}
+
+.supporters {
+    display:flex;
+    justify-content: center;
+}
+.supporters_img {
+    width:300px;
+    height:150px;
+}
+
+.supporters_text {
+    width:360px;
+    height:150px;
+    background-color: #eeeeee;
+    padding-left:20px;
+}
+
+.text_1 {
+    font-size:larger;
+    margin-bottom: 0px;
+
+}
+
+.text_2 {
+    color:#8e8989
+
+}
+.text_3 {
+    width:120px;
+}
+
+#text_info {
+    width:50px;
+}
+
+.text_3::after {
+    content:"→";
+    float:right;
+    margin-left:0px;
+}
+
+
+.fixtures_results{
+    width:218px;
+    height:40px;
+    background-color: navy;
+    color:lightblue;
+    margin:20px 370px;
+
+}
+
+.fixtures_results h3 {
+    padding-left:11px;
+    margin-top:10px;
+}
+
+
+.fixtures_results h3::after {
+    content:"→";
+    color: lightblue;
+    margin-left:10px;
+}
+
+.womenswear {
+        position:relative;
+}
+
+.womenswear_text {
+    position:absolute;
+    margin-top: 80px;
+    margin-left: 280px;
+    width: 510px;
+    height: 300px;
+    background: rgb(22, 22, 85, 0.9);
+}
+
+
+.womenswear_img {
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 560px;
+}
+
+.womenswear_text_1 {
+    font-size: 25px;
+    padding: 5px 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+.womenswear_text_2 {
+    font-size: 17px;
+    color: rgb(117, 115, 115);
+    padding: 0 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.womenswear_text_3 {
+    font-size:15px;
+    color:lightblue;
+    padding:0 20px;
+    margin-top: 130px;
+    height:35px;
+    width:100px;
+    background-color: navy;
+    margin-left:10px;
+}
+
+.shop-now {
+    padding-top:8px;
+    text-align:center;
+}
+
+.shop-now::after {
+    content:"→";
+    margin-left:8px;
+}
+
+.spurs_media {
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 650px;
+    width: 510px;
+    height: 300px;
+    background: rgb(22, 22, 85, 0.9);
+}
+
+.spurs_img {
+    width: 600px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 280px;
+}
+
+
+
+.spurs_text_1 {
+    font-size: 25px;
+    padding: 5px 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+.spurs_text_2 {
+    font-size: 17px;
+    color: rgb(117, 115, 115);
+    padding: 0 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.spurs_text_3 {
+    font-size: 17px;
+    color: rgb(117, 115, 115);
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.spurs_text_4 {
+    font-size:15px;
+    color:lightblue;
+    padding:0 20px;
+    margin-top: 60px;
+    height:35px;
+    width:120px;
+    background-color: navy;
+    margin-left:10px;
+}
+.spurs-now {
+    padding-top:8px;
+    text-align:center;
+}
+
+.spurs-now::after {
+    content:"→";
+    margin-left:8px;
+}
+
+
+.square {
+    background-color:  #07074d;
+    height:350px;
+    margin-top:20px;
+}
+
+.logos {
+    color:white;
+}
